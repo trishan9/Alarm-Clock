@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alarm Clock By Trishan</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav id="navbar" class="darkNav">
+        <h1>ALARM CLOCK BY TRISHAN</h1>
+        <button id="btn" class="btnDark">Light / Dark Mode</button>
+    </nav>
+    <div id="main" class="darkContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+        <div id="AmPm"></div>
+    </div>
+
+    <div class="content" id="content">
+        <div class="column">
+            <select class="darkSelect" id="select">
+                <option value="Hour" selected>Hour</option>
+            </select>
+        </div>
+        <div class="column">
+            <select class="darkSelect" id="select1">
+                <option value="Minute" selected>Minute</option>
+            </select>
+        </div>
+    </div>
+    <div class="trishan">
+        <div class="bttn" id="bttn">
+
+            <button class="lop lop1 darkSet" id="set">
+                Set Alarm
+            </button>
+
+            <button class="lop lop2 darkClear" id="del">
+                Clear Alarm
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

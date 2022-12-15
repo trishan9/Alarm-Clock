@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Silkscreen", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+body {
+  background: url("bg.png");
+  background-attachment: scroll;
+  background-size: cover;
+}
+.darkNav {
+  background-color: #333333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.lightNav {
+  background: white;
+  color: #333333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.darkContainer {
+  display: flex;
+  background: #2b2b2b;
+  border-radius: 30px;
+  color: white;
+  height: 50vh;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.lightContainer {
+  display: flex;
+  background: white;
+  border-radius: 30px;
+  color: #2b2b2b;
+  height: 50vh;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+#hour {
+  font-family: "Inter Tight", sans-serif;
+  width: 28%;
+  font-size: 8em;
+  height: 28vh;
+  text-align: center;
+}
+#minute {
+  font-family: "Inter Tight", sans-serif;
+  width: 28%;
+  font-size: 8em;
+  height: 28vh;
+  text-align: center;
+}
+#second {
+  font-family: "Inter Tight", sans-serif;
+  width: 28%;
+  font-size: 8em;
+  height: 28vh;
+  text-align: center;
+}
+
+#date {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  font-size: 2em;
+  font-family: "Inter Tight", sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+#AmPm {
+  font-size: 2em;
+  font-family: "Inter Tight", sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+.btnDark {
+  padding: 15px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  right: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.btnLight {
+  background: #2b2b2b;
+  color: white;
+  padding: 15px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  right: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.btnDark:hover {
+  background: #b8b7b7;
+}
+
+.btnLight:hover {
+  background: white;
+  color: black;
+}
+
+#content {
+  gap: 5%;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+}
+#bttn {
+  gap: 5%;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 71%;
+  transform: translate(-50%, -50%);
+}
+
+.darkSelect {
+  height: 6vh;
+  width: 8vw;
+  font-size: 1rem;
+  padding: 4%;
+  background-color: #2b2b2b;
+  color: white;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+}
+
+.lightSelect {
+  height: 6vh;
+  width: 8vw;
+  font-size: 1rem;
+  padding: 4%;
+  background-color: white;
+  color: #2b2b2b;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.lop {
+  width: 8.75vw;
+  height: 8vh;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: white;
+  color: #2b2b2b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lop:hover {
+  background-color: rgb(204, 201, 201);
+}
+
+.darkSet {
+  background-color: #2ecc71;
+  color: white;
+}
+.lightSet {
+  background-color: white;
+  color: #2ecc71;
+  border: 1px solid black;
+}
+
+.darkClear {
+  background-color: #ff9551;
+  color: white;
+}
+
+.lightClear {
+  background-color: white;
+  color: #ff9551;
+  border: 1px solid black;
+}
+
+.lop1:hover {
+  background-color: #25a45a;
+  color: white;
+  border: none;
+}
+
+.lop2:hover {
+  background-color: #e78447;
+  color: white;
+  border: none;
+}
